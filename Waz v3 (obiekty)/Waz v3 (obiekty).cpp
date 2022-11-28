@@ -100,7 +100,7 @@ void start_gry()
         waz1.historiayweza[iloscruchuw] = waz1.wspyweza;
         mapa[waz1.wspxweza][waz1.wspyweza] = 'w';
 
-        mapa[waz1.historiaxweza[iloscruchuw - waz1.dlugoscweza]][waz1.historiayweza[iloscruchuw - waz1.dlugoscweza]] = 'w';
+        mapa[waz1.historiaxweza[iloscruchuw - waz1.dlugoscweza]][waz1.historiayweza[iloscruchuw - waz1.dlugoscweza]] = 'p';
 
 
         //rysowanie mapy
