@@ -1,0 +1,9 @@
+﻿  Waz v3 (obiekty).cpp
+D:\Dokumenty\Programowanie\C++\Gra\Waz v3 (obiekty)\Waz v3 (obiekty)\Tmenu.h(42,27): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+D:\Dokumenty\Programowanie\C++\Gra\Waz v3 (obiekty)\Waz v3 (obiekty)\Tmenu.h(57,62): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+D:\Dokumenty\Programowanie\C++\Gra\Waz v3 (obiekty)\Waz v3 (obiekty)\Tmenu.h(71,18): warning C4305: "inicjowanie": obcięcie z "int" do "char"
+D:\Dokumenty\Programowanie\C++\Gra\Waz v3 (obiekty)\Waz v3 (obiekty)\Tmenu.h(71,14): warning C4309: "inicjowanie": obcięcie stałej wartości
+D:\Dokumenty\Programowanie\C++\Gra\Waz v3 (obiekty)\Waz v3 (obiekty)\Ustawienia.h(32,19): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+D:\Dokumenty\Programowanie\C++\Gra\Waz v3 (obiekty)\Waz v3 (obiekty)\Waz v3 (obiekty).cpp(78,19): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+D:\Dokumenty\Programowanie\C++\Gra\Waz v3 (obiekty)\Waz v3 (obiekty)\Waz v3 (obiekty).cpp(88,20): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+  Waz v3 (obiekty).vcxproj -> D:\Dokumenty\Programowanie\C++\Gra\Waz v3 (obiekty)\x64\Debug\Waz v3 (obiekty).exe
