@@ -3,6 +3,7 @@
 // Author      : Marek L.
 // Version     : v3
 // Copyright   : Personal
+// IDE         : Microsoft Visual Studio 2022
 // Description : Simple, easy game
 //============================================================================
 #include <iostream>
@@ -18,7 +19,7 @@ using namespace std;
 
 int iloscruchuw = 0, klawisz;
 
-//------------------------------------- Pocz¹tek Menu------------------------------------------------------
+//------------------------------------- PoczÄ…tek Menu------------------------------------------------------
 void jedno_osobowa()
 {
     wieloosobowa = 'n';
@@ -49,7 +50,7 @@ void menu_color()
     Menu.add("Niebieski", blue);
     Menu.add("Fioletowy", violet);
     Menu.add("Czerwony", red);
-    Menu.add("¯ó³ty", yellow);
+    Menu.add("Å»Ã³Å‚ty", yellow);
     Menu.add("Cofnij", ustawienia);
     Menu.view();
 }
@@ -57,15 +58,15 @@ void ustawienia()
 {
     TMenu Menu("Opcje");
     Menu.add("Kolor menu", menu_color);
-    Menu.add("Wyœwietl ustawienia", show_settings);
-    Menu.add("Przechodzenie przez œciany", wall_penetrate);
+    Menu.add("WyÅ›wietl ustawienia", show_settings);
+    Menu.add("Przechodzenie przez Å›ciany", wall_penetrate);
     Menu.add("cofnij", main_menu);
     Menu.view();
 }
 
 void f_exit()
 {
-    cout << "Program zostanie zamkniêty" << endl;
+    cout << "Program zostanie zamkniÄ™ty" << endl;
     Sleep(2000);
     system("cls");
     system("color f");
@@ -161,7 +162,7 @@ void start_gry()
         }
         cout << endl;
 
-        //wartoœci sterowania
+        //wartoÅ›ci sterowania
         if (_kbhit())
         {
             klawisz = getch();
@@ -182,7 +183,7 @@ void start_gry()
             }
         }
 
-        //ruch wê¿a
+        //ruch wÄ™Å¼a
         if (waz1.kierunek == 'p') waz1.wspxweza++;
         if (waz1.kierunek == 'l') waz1.wspxweza--;
         if (waz1.kierunek == 'd') waz1.wspyweza++;
